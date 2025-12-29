@@ -1,11 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import * as nodemailer from 'nodemailer';
 import { Transporter } from 'nodemailer';
-
-/* -------------------- */
-/* TYPE DEFINITIONS */
-/* -------------------- */
-
 interface Visitor {
   name: string;
   visitDate: Date | string;
