@@ -7,7 +7,6 @@ import {
   VisitingHoursDocument,
 } from './schemas/visiting-hours.schema';
 import { UpdateVisitingHoursDto } from './dto/update-visiting-hours.dto';
-
 @Injectable()
 export class SettingsService {
   constructor(
