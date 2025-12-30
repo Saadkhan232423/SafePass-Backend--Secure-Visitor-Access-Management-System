@@ -1,11 +1,9 @@
 import * as mongoose from 'mongoose';
 import { Types } from 'mongoose';
-
 /**
  * This migration script fixes invalid hostId values in visitor records
  * Run with: npm run migrate:fix-hostids
  */
-
 async function fixVisitorHostIds() {
   try {
     // Connect to MongoDB
