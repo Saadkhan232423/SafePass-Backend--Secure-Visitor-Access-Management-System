@@ -5,7 +5,6 @@ import { RolesGuard } from '../common/guards/roles.guard';
 import { Roles, UserRole } from '../common/decorators/roles.decorator';
 import { UpdateVisitingHoursDto } from './dto/update-visiting-hours.dto';
 import { SettingsService } from './settings.service';
-
 @Controller('settings')
 @UseGuards(JwtAuthGuard, RolesGuard)
 @Roles(UserRole.ADMIN)
